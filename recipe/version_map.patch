@@ -1,0 +1,13 @@
+diff --git a/cpp/src/gandiva/symbols.map b/cpp/src/gandiva/symbols.map
+index 77f000106..0e26bffc1 100644
+--- a/cpp/src/gandiva/symbols.map
++++ b/cpp/src/gandiva/symbols.map
+@@ -22,6 +22,8 @@
+     # devtoolset / static-libstdc++ symbols
+     __cxa_*;
+     __once_proxy;
++    *llvm*;
++    *LLVM*;
+
+     extern "C++" {
+       # devtoolset or -static-libstdc++ - the Red Hat devtoolset statically
