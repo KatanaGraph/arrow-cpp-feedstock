@@ -163,7 +163,7 @@ outputs:
     script: bld-pyarrow.bat  # [win]
     version: {{ version }}
     build:
-      string: py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}_{{ build_ext }}
+      string: py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}_{{ build_ext }}_katana
       ignore_run_exports:
         - cudatoolkit
       ignore_run_exports_from:
